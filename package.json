@@ -1,0 +1,27 @@
+{
+  "name": "arbalest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "degit": "^2.8.4",
+    "kleur": "^3.0.3",
+    "prompts": "^2.4.2",
+    "sisteransi": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arbalest-Dcmk/arbalest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arbalest-Dcmk/arbalest/issues"
+  },
+  "homepage": "https://github.com/Arbalest-Dcmk/arbalest#readme"
+}
