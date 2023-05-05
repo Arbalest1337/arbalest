@@ -18,8 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/Arbalest-Dcmk/arbalest.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["arbalest"],
+  "author": "Arbalest-Dcmk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Arbalest-Dcmk/arbalest/issues"
