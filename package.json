@@ -1,17 +1,18 @@
 {
   "name": "arbalest",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Arbalest's cli",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
+    "@inquirer/prompts": "^1.0.0",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
     "degit": "^2.8.4",
-    "kleur": "^3.0.3",
-    "prompts": "^2.4.2",
-    "sisteransi": "^1.0.5"
+    "ora": "^6.3.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "arbalest":"./cli/index.js"
   },
   "repository": {
     "type": "git",
