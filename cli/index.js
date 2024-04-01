@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-
-import data from '../package.json' assert { type: 'json' }
+import fs from 'fs'
 import { Command } from 'commander'
-const program = new Command()
 import { createNewProject } from '../scripts/new.js'
 
-program.name('Arbalest').description("Arbalest's cli").version(data.version)
+const { version } = JSON.parse(fs.readFileSync('package.json', 'utf8'))
+const program = new Command()
+
+program.name('Arbalest').description("Arbalest's cli").version(version)
 
 program
     .command('new')
