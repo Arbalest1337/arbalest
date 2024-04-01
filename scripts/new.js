@@ -80,9 +80,9 @@ const branches = {
 }
 
 const repositories = {
-    pc: `Arbalest-Dcmk/vue3-arbalest`,
-    mobile: 'Arbalest-Dcmk/vue3-arbalest-mobile',
-    uniApp: 'Arbalest-Dcmk/uni-app'
+    pc: `Arbalest1337/vue3-arbalest`,
+    mobile: 'Arbalest1337/vue3-arbalest-mobile',
+    uniApp: 'Arbalest1337/uni-app-vue3'
 }
 
 export { createNewProject }
