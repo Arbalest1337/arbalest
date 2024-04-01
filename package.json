@@ -1,6 +1,6 @@
 {
   "name": "arbalest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Arbalest's cli",
   "main": "index.js",
   "type": "module",
@@ -12,13 +12,15 @@
     "ora": "^6.3.0"
   },
   "bin": {
-    "arbalest":"./cli/index.js"
+    "arbalest": "./cli/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arbalest-Dcmk/arbalest.git"
   },
-  "keywords": ["arbalest"],
+  "keywords": [
+    "arbalest"
+  ],
   "author": "Arbalest-Dcmk",
   "license": "ISC",
   "bugs": {
