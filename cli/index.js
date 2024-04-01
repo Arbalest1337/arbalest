@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import { version } from '../package.json'
+import data from '../package.json' assert { type: 'json' }
 import { Command } from 'commander'
 const program = new Command()
 import { createNewProject } from '../scripts/new.js'
 
-program.name('Arbalest').description("Arbalest's cli").version(version)
+program.name('Arbalest').description("Arbalest's cli").version(data.version)
 
 program
     .command('new')
